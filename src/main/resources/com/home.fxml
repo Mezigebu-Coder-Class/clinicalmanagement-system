@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.stage.Stage?>
+
+<Stage xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #987;">
+            <children>
+               <Button layoutX="102.0" layoutY="126.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="167.0" text="DOCTOR" />
+               <Button layoutX="294.0" layoutY="126.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="178.0" text="RECEPTIONIST" />
+               <Button layoutX="508.0" layoutY="124.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="157.0" text="PATIENT" />
+               <Label alignment="CENTER" layoutX="269.0" layoutY="25.0" prefHeight="58.0" prefWidth="225.0" style="-fx-background-color: #798;" text="HOME" />
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>
